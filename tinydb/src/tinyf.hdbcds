@@ -7,4 +7,8 @@ context tinyf {
     name: String(100);
     partof: Association[0..1] to world; 
   }; 
+  entity capital { 
+    name: String(100);
+    partof: Association[0..1] to country; 
+  }; 
 };
